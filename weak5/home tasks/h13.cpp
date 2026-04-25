@@ -3,7 +3,7 @@ using namespace std;
 main(){
      int number1,n1, number2,n2,hcf;
     int remainder;
-
+b
     cout << "Enter the first no. : ";
     cin >> number1;
     n1=number1;
