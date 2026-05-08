@@ -364,6 +364,44 @@ int main(){
             }
             break;
         }
+
+        // top freelancers option
+
+        else if(userOption==7){
+            system("cls");
+            cout<<"Top Freelancers : \n";
+            cout<<"1. John Doe - Web Developer - 5 years of experience \n";
+            cout<<"2. Jane Smith - Mobile App Developer - 4 years of experience \n";
+            cout<<"3. Mike Johnson - Python Developer - 6 years of experience \n";
+            break;
+        }
+
+        // help and instructions  
+
+        else if(userOption==8){
+            system("cls");
+            cout<<"Help / Instructions : \n";
+            cout<<"1. To register, choose option 4 and follow the prompts.\n";
+            cout<<"2. To login, choose the appropriate login option and enter your credentials.\n";
+            cout<<"3. Clients can post jobs and manage their listings.\n";
+            cout<<"4. Freelancers can view available jobs and apply for them.\n";
+            cout<<"5. Admins can manage users and view system analytics.\n";
+            break;
+        }
+
+        // About System   
+
+        else if(userOption==9){
+            system("cls");
+            cout<<"About System : \n";
+            cout<<"This Freelance Job Management System connects clients \nwith talented freelancers across various fields.\nIt provides a platform for clients to post job opportunities \nand for freelancers to showcase their skills and apply for relevant projects.\nThe system also includes an admin panel for managing users\nand monitoring system performance.\n";
+            break;
+        }
+        else if(userOption==10){
+            system("cls");
+            cout<<"Exiting the system... Goodbye!\n";
+            break;
+        }
         else{
             cout<<"Invalid option ! Please choose again \n";
         }
